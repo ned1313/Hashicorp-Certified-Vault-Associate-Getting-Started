@@ -1,3 +1,8 @@
+# Let's try out the Vault help command
+vault -help
+
+vault server -help
+
 # Now we are going to start Vault in development mode
 vault server -dev
 
