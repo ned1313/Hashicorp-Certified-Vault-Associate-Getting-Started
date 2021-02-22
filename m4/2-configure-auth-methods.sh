@@ -15,6 +15,7 @@ vault path-help auth/userpass/users/something
 vault write auth/userpass/users/ned password=tacos
 
 # We can also add a user through the UI
+# We will add Amy who loves burritos
 
 # Now we need to do a little config on the AppRole too
 
