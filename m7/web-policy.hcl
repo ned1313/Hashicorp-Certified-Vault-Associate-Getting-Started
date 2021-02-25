@@ -1,0 +1,3 @@
+service "web" {
+    policy = "read"
+}
