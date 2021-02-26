@@ -34,7 +34,6 @@ vault path-help consul/config/access
 vault write consul/config/access address="http://127.0.0.1:8500" token=$env:CONSUL_HTTP_TOKEN
 
 
-
 # And add a role to provision tokens with a ttl of 1 hour and a max of 2 hours
 
 vault path-help consul/roles/web

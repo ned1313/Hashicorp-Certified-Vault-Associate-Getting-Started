@@ -21,9 +21,6 @@ consul acl bootstrap
 # Linux and MacOS
 export CONSUL_HTTP_TOKEN=SECRETID_VALUE
 
-# Windows
-$env:CONSUL_HTTP_TOKEN="SECRETID_VALUE"
-
 # Next we have to create a policy and role for new tokens
 # that Vault will generate on Consul
 
