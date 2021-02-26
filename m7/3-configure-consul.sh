@@ -29,14 +29,14 @@ $env:CONSUL_HTTP_TOKEN="SECRETID_VALUE"
 
 consul acl policy create -name=web -rules @web-policy.hcl
 
-consul acl role create -name=web-role -policy-name=web
-
 # Now we'll configure out Consul secrets engine
 vault path-help consul/
 
 vault path-help consul/config/access
 
 vault write consul/config/access address="http://127.0.0.1:8500" token=$CONSUL_HTTP_TOKEN
+
+
 
 # And add a role to provision tokens with a ttl of 1 hour and a max of 2 hours
 

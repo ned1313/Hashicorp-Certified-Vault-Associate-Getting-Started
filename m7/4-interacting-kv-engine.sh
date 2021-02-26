@@ -48,6 +48,6 @@ curl --header "X-Vault-Token: $root_token" \
 
 # If we want a specific version, we can add a query string
 curl --header "X-Vault-Token: $root_token" \
-  $VAULT_ADDR/v1/GloboKV/data/apitokens/d102?version=2 | jq
+  $VAULT_ADDR/v1/GloboKV/data/apitokens/d102?version=1 | jq
 
 # We can also get at these secrets using the UI
