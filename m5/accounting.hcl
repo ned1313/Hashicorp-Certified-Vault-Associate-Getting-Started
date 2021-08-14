@@ -9,7 +9,7 @@ path "accounting/metadata/*" {
 }
 
 # Deny access to privileged accounting data
-path "accounting/data/apitokens/privleged*" {
+path "accounting/data/apitokens/privileged*" {
     capabilities = ["deny"]
 }
 
